@@ -1,0 +1,55 @@
+* {
+  margin: 5px;
+  padding: 0px;
+}
+nav {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+
+  border-radius: 10px;
+}
+nav:hover {
+  color: rgb(103, 252, 202);
+  cursor: default;
+}
+.img {
+  display: inline-block;
+  width: 235px;
+  border-style: solid;
+  border-color: black;
+}
+.foods {
+  text-align: center;
+}
+.recipe {
+  font-style: italic;
+  font-weight: bold;
+  cursor: pointer;
+}
+.order {
+  cursor: default;
+}
+.order:hover {
+  background-color: black;
+  color: white;
+  display: inline-block;
+}
+.contact {
+  display: grid;
+  place-items: center;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.send {
+  background-color: gold;
+  color: black;
+
+  text-align: center;
+
+  width: 400px;
+  padding: 2px;
+}
